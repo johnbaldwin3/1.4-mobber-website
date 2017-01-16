@@ -252,7 +252,7 @@ body {
 }
 .note-span {
   font-size: 12px;
-  color: #929291;
+  color: #898888;
   position: relative;
   width: 620px;
   top: 53px;
@@ -376,7 +376,7 @@ body {
 
 .join-mob-sub-foot {
   font-size: 12px;
-  color: #414143;
+  color: #898888;
   text-shadow: 1px 1px 1px #eee;
   width: 283px;
   padding-left: 17px;
@@ -392,6 +392,59 @@ body {
   display: flex;
 }
 
-.twit {
+.social-links > li > button {
+  margin-right: 6px;
+ position: relative;
+ top: 6px;
+ left: -38px;
+ font-size: 12px;
+ border-radius: 6px;
+}
+
+.twit button {
   color: #4597c8;
+  height: 25px;
+  background: linear-gradient(#fff 40%, rgba(69, 151,200, 0.3));
+}
+.face button {
+  color: #3F5794;
+  background-color: #ECEEF4;
+  height: 25px;
+}
+
+.goog button {
+  font-family: 'PT Serif', serif;
+  color: #CE674E;
+  height: 25px;
+  overflow: hidden;
+  background: linear-gradient(#f2f0ec 40%, rgba(207, 205, 204, 0.93));
+}
+
+.g {
+  font-size: 30px;
+  position: relative;
+  top: -12px;
+  margin-left: -10px;
+  margin-top: -22px;
+}
+
+.plusone {
+  position: relative;
+  top: -15px;
+  font-weight: bold;
+}
+
+.linkin {
+  position: relative;
+  position: relative;
+  top: 10px;
+  left: -38px;
+  transform: scaleX(-1);
+}
+
+.linked {
+  position: relative;
+  top: 10px;
+  left: -33px;
+  color: #3880AC;
 }
