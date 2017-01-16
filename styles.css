@@ -385,3 +385,13 @@ body {
   padding-bottom: 14px;
   border-bottom: 1px solid grey;
 }
+
+.social-links {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+}
+
+.twit {
+  color: #4597c8;
+}
