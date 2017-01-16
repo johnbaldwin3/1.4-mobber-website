@@ -26,10 +26,15 @@ body {
   top: 7px;
   margin-left: 279px;
 }
-.nap-option ul {
+.nav-option ul {
   display: inline-block;
   width: 400px;
 }
+
+.nav-option li:hover {
+  color: #F3CF46;
+}
+
 .nav-option li{
   position: relative;
   list-style: none;
@@ -41,6 +46,8 @@ body {
   text-transform: uppercase;
 
 }
+
+
 
 .moblog {
   font-weight: bold;
@@ -55,7 +62,7 @@ body {
   position: relative;
   display: inline-block;
   float: right;
-  right: 359px;
+  right: 388px;
   padding: 0;
   margin: 0;
 }
@@ -63,6 +70,7 @@ body {
 .user-pic {
   position: relative;
   top: 4px;
+  left: -80px;
 }
 .user-pic img {
   border-radius: 50%;
@@ -74,7 +82,7 @@ body {
   display: inline-block;
   width: 300px;
   top: 20px;
-  left: 60px;
+  left: -20px;
 }
 
 .menu-arrow {
@@ -108,13 +116,20 @@ body {
   margin: -30px 0 0 0;
   text-align: center;
   font-size: 30px;
+  text-shadow: 2px 2px 2px #cfcdc8;
   position: relative;
   top: 30px;
+  left: 0;
   letter-spacing: .2px;
   border-bottom: 1px solid lightgrey;
   padding-top: 27px;
   padding-bottom: 25px;
   box-shadow: 15px -1px 10px #888888;
+}
+
+.headline span {
+  position: relative;
+  left: -56px;
 }
 
 .container1 {
@@ -167,9 +182,9 @@ body {
   right: 30px;
 }
 
-.secondary-column {
+/*.secondary-column {
   float: left;
-}
+}*/
 
 .img-sub-footer {
   background-color: #F3CF46;
@@ -222,6 +237,11 @@ body {
   top: -29px;
 }
 
+.image-footer a:hover {
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
 .image-note-icon-arrow img {
   width: 60px;
   height: 60px;
@@ -243,7 +263,8 @@ body {
   float: right;
   position: relative;
   width: 26%;
-  margin-right: 242px;
+  left: -22px;
+  margin-right: 232px;;
   margin-top: 30px;
 }
 
@@ -275,4 +296,92 @@ body {
   bottom: -32px;
   background-color: #AFA99F;
   padding: 9px 0;
+}
+
+.join-button button {
+  position: relative;
+  background-color: #F3CF46;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px grey;
+  margin: 0 auto;
+  top: 23px;
+  width: 302px;
+  height: 64px;
+  border-radius: 7px;
+  font-size: 26px;
+  border-radius: 7px;
+  box-shadow: -1px 4px 7px #bababa;
+  font-size: 24px;
+  background: -webkit-linear-gradient(#FBF4C1 1%, #F3CF46 3%, #F3CF46 11%, #E1A93A 87%);
+  background: -o-linear-gradient(#FBF4C1 1%, #F3CF46 3%, #F3CF46 11%, #E1A93A 87%);
+  background: -moz-linear-gradient(#FBF4C1 1%, #F3CF46 3%, #F3CF46 11%, #E1A93A 87%);
+  background: linear-gradient(#FBF4C1 1%, #F3CF46 3%, #F3CF46 11%, #E1A93A 87%);
+}
+
+.join-button button:hover {
+  background-color: grey;
+  color: white;
+  background: -webkit-linear-gradient(#f2f0ec 1%, #c0c0c0 3%, #c0c0c0 11%, #929291 87%);
+  background: -o-linear-gradient(#f2f0ec 1%, #c0c0c0 3%, #c0c0c0 11%, #929291 87%);
+  background: -moz-linear-gradient(#f2f0ec 1%, #c0c0c0 3%, #c0c0c0 11%, #929291 87%);
+  background: linear-gradient(#f2f0ec 1%, #c0c0c0 3%, #c0c0c0 11%, #929291 87%);
+}
+
+
+.award-icon {
+  position: absolute;
+  z-index: 1;
+  top: 244px;
+  left: 4px;
+}
+
+.reward {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #414141;
+  text-shadow: 1px 1px 1px #cfcdc8;
+  font-size: 13px;
+  width: 288px;
+  position: relative;
+  left: 5px;
+  top: 23px;
+  height: 76px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  box-shadow: inset 0px 0px 10px #bababa;
+  border-bottom: 1px solid #bababa;
+  border-left: 1px solid #bababa;
+  border-right: 1px solid #bababa;
+}
+
+.reward h2 {
+  text-align: center;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  right: 35px;
+  top: -1px;
+}
+
+.ticksale {
+  font-size: 11px;
+  text-shadow: 1px 1px 1px #cfcdc8;
+  z-index: 3;
+  position: relative;
+  top: -27px;
+  left: 61px;
+}
+
+.join-mob-sub-foot {
+  font-size: 12px;
+  color: #414143;
+  text-shadow: 1px 1px 1px #eee;
+  width: 283px;
+  padding-left: 17px;
+  padding-top: 0px;
+  margin-top: -4px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid grey;
 }
