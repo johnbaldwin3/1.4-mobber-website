@@ -167,9 +167,9 @@ body {
   right: 30px;
 }
 
-.secondary-column {
+/*.secondary-column {
   float: left;
-}
+}*/
 
 .img-sub-footer {
   background-color: #F3CF46;
@@ -238,4 +238,8 @@ body {
   top: 53px;
   left: 32px;
 }
+
+.secondary-columm {
+  float: right;
+  width: 40%:
 }
