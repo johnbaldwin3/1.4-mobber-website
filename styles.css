@@ -148,7 +148,8 @@ body {
 }
 
 .container1 {
-  width: 100%;
+  width: 1300px;
+  margin: 0 auto;
   position: relative;
   top: 31px;
   height: 580px;
@@ -156,12 +157,16 @@ body {
 }
 
 .primary-column {
-  float: left;
+  display: inline-block;
+  display: inline-block;
+  position: relative;
+  left: 57px;
+  top: 31px;
 }
 
 .large-image {
   position: relative;
-  margin: 31px 10px 10px 279px;
+  display: inline-block;
 }
 
 .image-header {
@@ -275,17 +280,13 @@ body {
 }
 
 
-.secondary-columm {
-  float: right;
-  width: 40%;
-}
+
 .secondary-column {
-  float: right;
+  display: inline-block;
   position: relative;
   width: 26%;
-  left: -22px;
-  margin-right: 232px;;
-  margin-top: 30px;
+  top: -35px;
+  left: 73px;
 }
 
 .col-1, .col-2 {
